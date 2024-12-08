@@ -1,3 +1,4 @@
+print('Задание №1')
 a = input('x = ')
 b = input('y = ')
 c = input('z = ')
@@ -7,4 +8,4 @@ if int(a) < int(b): a = b
 if int(a) < int(c): a = c
 if int(a) < int(d): a = d
 if int(a) < int(e): a = e
-print('\nНаибольшее число:', a)
+print('Наибольшее число:', a)

@@ -1,14 +1,14 @@
 print('Задание №2')
 holiday = input('Праздник (1 или 0): ')
-temperature = input('Градусов на улице: ')
+temperature = input('Температура на улице: ')
 age = input('Возраст: ')
-temperature_limit = -27
-age_limit = 9
+temperature_limit = input('Предел температуры: ')
+age_limit = input('Максимальный возраст начальной школы: ')
 if holiday == 1:
     print('\nИдем к друзьям')
-elif int(temperature) > temperature_limit:
+elif int(temperature) > int(temperature_limit):
     print('\nВ школу :(')
-elif int(age) < age_limit:
+elif int(age) < int(age_limit):
     print('\nСидим дома :)')
 else:
     print('\nТащимся в школу :(')

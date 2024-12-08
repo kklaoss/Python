@@ -1,6 +1,10 @@
-x = input('x = ')
-y = input('y = ')
-z = input('z = ')
-if int(x) < int(y): x = y
-if int(x) < int(z): x = z
-print('\nНаибольшее число:', x)
+a = input('x = ')
+b = input('y = ')
+c = input('z = ')
+d = input('d = ')
+e = input('e = ')
+if int(a) < int(b): a = b
+if int(a) < int(c): a = c
+if int(a) < int(d): a = d
+if int(a) < int(e): a = e
+print('\nНаибольшее число:', a)
